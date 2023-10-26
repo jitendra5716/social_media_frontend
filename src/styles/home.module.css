@@ -1,0 +1,110 @@
+.mainContainer{
+    min-height: 90vh;
+    width: 96%;
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 48px auto;
+}
+.divOne{
+    height: inherit;
+    width: 24%;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+
+.divSecond{
+    width: 55% !important;
+    /* height: 90vh; */
+    background-color:#f1f3f5;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px 40px; */
+    margin: 0px 40px;
+}
+
+.outerContainer{
+    width: 75%;
+    height: 90vh;
+    background-color: #f1f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.innerContainer h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3b5bdb;
+    text-align: center;
+}
+.innerContainer p{
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #20c997;
+    text-align: center;
+}
+
+.divThree{
+    /* border: 1px solid red; */
+
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    /* margin:2px, 2px; */
+	padding:4px;
+	/* background-color: green; */
+	height: 510px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align:justify;
+    /* border: 2px solid blue; */
+
+    width: 18%;
+    /* right: 20px; */
+}
+.postDiv{
+    /* min-height: 600px; */
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+    /* border: 2px solid blue; */
+    background-color: #f8f9fa;
+}
+.mapDiv{
+    margin-top: 20px;
+    height: 260px;
+    /* width: 100%; */
+    /* border: 2px solid maroon; */
+    position: fixed;
+    top: 40px;
+    width: 300px;
+    box-shadow: 3px 3px 6px lightgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+}
+.mapDiv img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.loadingDiv{
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    color: black;
+    /* z-index: 40; */
+
+}
+.loadingDiv h1{
+    font-size: 3rem;
+    text-align: center;
+}

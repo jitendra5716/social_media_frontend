@@ -1,0 +1,170 @@
+.outerDiv{
+    min-height: 450px;
+    height: auto;
+    width: 100%;
+    /* border: 2px solid maroon; */
+    padding: 10px 5px;
+    margin: 10px 0px 0px 0px;
+    /* box-shadow: 0px 0px 2px lightgray; */
+}
+.headingDiv{
+    display: flex;
+    /* border: 2px solid green; */
+    /* height: 60px; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 20px;
+}
+.deletePost{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    cursor: pointer;
+}
+.userName{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    color: green;
+}
+.titleDiv{
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid maroon; */
+}
+.titleDiv p{
+    /* display: inline-block; */
+    margin: 0px 0px -5px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: sans-serif;
+    color: midnightblue;
+    /* margin-top: 20px; */
+}
+.titleDiv small{
+    margin-left: 15px;
+    font-size: 0.8rem;
+}
+.profileDiv{
+    height: 50px;
+    width: 8%;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    
+}
+.profileDiv img{
+    height: 100%;
+    width: 100%;
+}
+.imgDiv{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid green; */
+    background-color: lightgray;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 0px 0px;
+}
+.imgDiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+    /* border: 2px solid red; */
+}
+.likeContainer{
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid orange; */
+    margin: 5px 0px 0px 0px;
+    background-color: #f1f3f5;
+    display: flex;
+}
+.svgDiv{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.svgDiv svg{
+    height: 20px;
+    cursor: pointer;
+}
+.commentDiv{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid black; */
+}
+.commentDiv form{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.commentDiv form input{
+    height: 2.4rem;
+    width: 14rem;
+    outline: none;
+    padding-left: 10px;
+    border-bottom: 1px solid blue;
+}
+.btn{
+    height: 2.4rem;
+    width: 5rem;
+    background-color: blue;
+    font-size: 0.9rem;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+}
+.likeDiv{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.commentsDiv{
+
+    /* position: fixed;
+    top: 360px; */
+    margin:4px, 4px;
+	padding:4px;
+	/* background-color: green; */
+	/* width: 300px; */
+	height: 76px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align:justify;
+    /* border: 2px solid blue; */
+    min-height: 10vh;
+    /* height: auto; */
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+}
+.heart{
+    /* background-color: red; */
+    /* overflow: hidden; */
+}

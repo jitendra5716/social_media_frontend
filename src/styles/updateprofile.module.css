@@ -1,0 +1,94 @@
+.outerDiv{
+    height: 90vh;
+    width: 100%;
+    border: 1px solid maroon;
+    margin-top: 56px;
+    background-image: url(https://img.freepik.com/premium-vector/user-setting-flat-illustration-editable-vector-design_203633-1194.jpg?size=626&ext=jpg&ga=GA1.1.134552255.1697800348&semt=ais);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.innerDiv{
+    height: 300px;
+    width: 60%;
+    margin: 90px auto auto 60px;
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: #dee2e6;
+    box-shadow: 3px 3px 4px lightgray;
+}
+.infoDiv{
+    height: inherit;
+    width: 40%;
+    /* border: 1px solid green; */
+}
+.imgDiv{
+    height: 180px;
+    width: 180px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.imgDiv img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center;
+}
+.infoDiv h2{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.infoDiv h3{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.updateDiv{
+    height: inherit;
+    width: 60%;
+    /* border: 2px solid maroon; */
+    padding: 20px;
+}
+.updateDiv form{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    margin-top: 10px;
+}
+.updateDiv form label{
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: midnightblue;
+    margin-top: 10px;
+}
+.updateDiv form input{
+    outline: none;
+    border-bottom: 1px solid midnightblue;
+    padding: 0px 0px 5px 15px;
+}
+.btn{
+    height: 2.4rem;
+    width: 8rem;
+    background-color: midnightblue;
+    display: inline-block;
+    margin: 40px auto ;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: blue;
+}
+.btn:active{
+    transform: scale(0.97);
+}

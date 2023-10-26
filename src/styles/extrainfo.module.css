@@ -1,0 +1,55 @@
+.outerDiv{
+    position: fixed;
+    top: 360px;
+    margin:4px, 4px;
+	padding:4px;
+	/* background-color: green; */
+	width: 300px;
+	height: 210px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align:justify;
+    /* border: 2px solid blue; */
+}
+.innerDiv{
+    height: 12vh;
+    width: 80%;
+    margin: -10px auto;
+    /* border: 1px solid maroon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.iconDiv{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid red; */
+}
+.textDiv{
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid green; */
+}
+.textDiv h2{
+    margin-top: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: midnightblue;
+    cursor: pointer;
+}
+.textDiv h4{
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: midnightblue;
+    cursor: pointer;
+}
+#icon{
+   height: 40px;
+   width: 40px;
+   background-position: center;
+}
+#pageIcon{
+    /* background-color: red; */
+    color: green;
+}

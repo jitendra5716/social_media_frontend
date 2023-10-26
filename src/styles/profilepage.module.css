@@ -1,0 +1,138 @@
+.outerDiv{
+    width: 95%;
+    height: 90vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 60px;
+    margin: 10px auto;
+    position: relative;
+}
+.innerDiv{
+    height: 400px;
+    width: 45%;
+    box-shadow: 4px 4px 4px lightgray;
+    display: flex;
+    position: fixed;
+    top: 90px;
+    left: 20px;
+    /* margin-top: 90px; */
+}
+.imgDiv{
+    height: inherit;
+    width: 40%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f3f5;
+}
+.profileDiv{
+    height: 180px;
+    width: 180px;
+    box-shadow: 3px 3px 3px lightgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0%;
+    border-top: 2px solid maroon;
+}
+.profileDiv img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+.profileDesc{
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.profileDesc h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    /* margin-top: 10px; */
+}
+.profileDesc h2{
+    text-align: center;
+    font-size: 1rem;
+}
+.descDiv{
+    height: inherit;
+    width: 60%;
+    /* border: 2px solid green; */
+    padding: 20px 20px 20px 40px;
+    border-top: 2px solid blue;
+    position: relative;
+}
+.descDiv p{
+    text-align: right;
+}
+.descDiv h4{
+    position: absolute;
+    /* text-align: right; */
+    bottom: 70px;
+    right: 10px;
+}
+.btnDiv{
+    height: 12vh;
+    width: 90%;
+    position: absolute;
+    bottom: 0px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+   height: 2.4rem;
+   width: 8rem;
+   outline: none; 
+   font-size: 0.9rem;
+   color: white;
+   border-radius: 10px;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+#info{
+    background-color: blue;
+}
+#delete{
+    background-color: red;
+}
+#viewMore{
+    color: blue;
+}
+.innerContainerTwo{
+    height: auto;
+    width: 50%;
+    /* border: 2px solid blue; */
+    /* margin-top: 50px; */
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    background-color: #f1f3f5;
+}
+.noPost{
+    position: absolute;
+    right: 80px;
+    top: 120px;
+    height: 300px;
+    width: 500px;
+    /* border: 2px solid red; */
+    background-color: #5f3dc4;
+    box-shadow: 3px 6px 4px lightgray;
+}
+.noPost h1{
+    font-size: 1.5rem;
+    letter-spacing: 1.8;
+    line-height: 2.5;
+    word-spacing: 2;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+
+}

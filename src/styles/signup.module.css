@@ -1,0 +1,35 @@
+.outerMostDiv{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    position: relative;
+}
+
+.outerDiv{
+    /* background-image: url(https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7963.jpg?size=626&ext=jpg&ga=GA1.1.134552255.1697800348&semt=ais);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain; */
+    height: auto;
+    width: 50%;
+    /* border: 2px solid red; */
+    position: fixed;
+    top: -40px;
+    right: 0px;
+    /* z-index: 30; */
+    /* margin-top: -80px; */
+}
+/* #outerDiv2{
+    background-image: url(https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7963.jpg?size=626&ext=jpg&ga=GA1.1.134552255.1697800348&semt=ais);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+} */
+
+#sectionDiv{
+    height: inherit;
+    width: 50%;
+    /* border: 2px solid green; */
+}

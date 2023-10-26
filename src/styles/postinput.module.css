@@ -1,0 +1,68 @@
+.outerDiv{
+    width: 30%;
+    height: 50vh;
+    /* border: 2px solid blue; */
+    /* margin: 10px 0px; */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    left: 30px;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    /* box-shadow: 2px 2px 2px lightgray; */
+}
+.outerDiv form{
+    height: inherit;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0px;
+    align-items: flex-end;
+    padding-right: 20px;
+    /* border: 2px solid red; */
+}
+.outerDiv form input{
+    width: 100%;
+    /* height: 100%; */
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid maroon;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.btn{
+    height: 2.3rem;
+    width: 5rem;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: blue;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.row{
+    border: 1px solid gray;
+    /* margin-top: 10px; */
+}
+.profileDiv{
+    width: 20%;
+    height: 40%;
+}
+.imgDiv{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0px 0px 10px;
+    box-shadow: 3px 3px 3px gray;
+}
+.imgDiv img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}

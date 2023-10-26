@@ -1,0 +1,41 @@
+.imgDiv{
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.imgDiv img{
+    height: 40px;
+    width: 40px;
+}
+#outerDiv{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* margin-bottom: 150px; */
+    /* z-index: -1; */
+}
+.searchDiv{
+    width: 30rem;
+    /* border: 2px solid red; */
+    margin-left:10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.searchDiv form{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+}
+#searchInput{
+    outline: none;
+    height: 2.2rem;
+    width: 30rem;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: midnightblue;
+}
